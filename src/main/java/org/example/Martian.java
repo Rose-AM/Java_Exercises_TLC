@@ -1,17 +1,14 @@
 package org.example;
 
-public class Martian extends Seat{
-
-    private Seat martianSeat;
-
-    public Martian(String id, String nameOfPerson) {
-        super(id, nameOfPerson);
-    }
+public class MartianSeat extends Seat {
 
     @Override
     public void meal() {
         System.out.println("Martian Food");
     }
 
+    @Override
+    public void whatIsPluto() {
 
+    }
 }
